@@ -114,7 +114,7 @@ This project combines **Natural Language Processing (NLP)**, **Machine Learning*
 
 ```bash
 
-git clone https://github.com/<your-username>/Bitcoin-Sentiment-Analysis.git
+git clone https://github.com/PES2UG23CS141/ML_Project_Team21.git
 cd Bitcoin-Sentiment-Analysis
 
 🧱 Step 2: Install Dependencies
