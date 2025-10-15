@@ -144,7 +144,7 @@ jupyter notebook Team21_ML_Assignment.ipynb
 
 Or use Google Colab:
 
-Upload the notebook and both datasets to your Colab environment.
+Upload the notebook and both datasets to your Colab environment and make sure the naming conventions are correct. (⚠️ NOTE: The link to the datasets is given in the DATASET DESCRIPTION section of the README.)
 
 Run all cells sequentially.
 
@@ -153,6 +153,13 @@ Run all cells sequentially.
 Model performance metrics will be displayed in output cells.
 
 Graphs will show sentiment vs. price trends and model comparisons.
+
+🪙 Step 6 — Bitcoin Tweet Sentiment Analyzer (Gradio)
+
+This step creates a simple web app using Gradio and VADER Sentiment Analysis to quickly analyze the sentiment of any Bitcoin-related tweet or message.
+
+This mini-app lets you enter a Bitcoin tweet or headline (like “Bitcoin is skyrocketing!! This is amazing!!”) and instantly get a sentiment label — Positive, Negative, or Neutral — along with its numeric VADER compound score. 
+(⚠️ NOTE: Please open the link generated in the cell to run the GUI better, DONOT run it in the code cell.)
 
 🔮 Future Work
 
