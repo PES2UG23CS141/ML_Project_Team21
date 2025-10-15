@@ -24,6 +24,7 @@ This project combines **Natural Language Processing (NLP)**, **Machine Learning*
 
 ###  1. Bitcoin Tweets Dataset
 - File: `Bitcoin_tweets.csv`
+- Source: [Bitcoin_tweets](https://www.kaggle.com/datasets/kaushiksuresh147/bitcoin-tweets)
 - Contains tweets related to Bitcoin.
 - Key columns:
   - `text` — tweet content  
@@ -31,6 +32,7 @@ This project combines **Natural Language Processing (NLP)**, **Machine Learning*
 
 ###  2. Bitcoin Price Dataset
 - File: `BTC-USD.csv`
+- Source: [Bitcoin Price Dataset](https://www.kaggle.com/datasets/pavan9065/bitcoin-price-history)
 - Historical Bitcoin prices with columns:
   - `Date`, `Open`, `High`, `Low`, `Close`, `Volume`
 
