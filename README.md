@@ -1,6 +1,6 @@
-# 🪙 Bitcoin Price Prediction using Twitter Sentiment (BERT + VADER + RF + LR + LSTM)
+# Bitcoin Price Prediction using Twitter Sentiment (BERT + VADER + RF + LR + LSTM)
 
-## 📖 Overview
+## Overview
 This project explores how **social media sentiment** influences **Bitcoin price movements**.  
 By analyzing thousands of **Bitcoin-related tweets**, we extract **sentiment signals** using both **VADER** and **BERT**, then train **three models** — **Random Forest**, **Logistic Regression**, and **LSTM** — to predict whether Bitcoin’s price will rise or fall.
 
@@ -8,43 +8,43 @@ This project combines **Natural Language Processing (NLP)**, **Machine Learning*
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 - Clean and preprocess Bitcoin-related tweets 🧹  
 - Perform **sentiment analysis** using **VADER** and **BERT**  
 - Merge sentiment data with **Bitcoin price trends**  
 - Train three models:
-  - 🌲 Random Forest  
-  - ⚙️ Logistic Regression  
-  - 🧠 LSTM (Long Short-Term Memory)
+  -  Random Forest  
+  -  Logistic Regression  
+  -  LSTM (Long Short-Term Memory)
 - Compare model performances and visualize results  
 
 ---
 
-## 📊 Dataset Description
+##  Dataset Description
 
-### 🗂️ 1. Bitcoin Tweets Dataset
+###  1. Bitcoin Tweets Dataset
 - File: `Bitcoin_tweets.csv`
 - Contains tweets related to Bitcoin.
 - Key columns:
   - `text` — tweet content  
   - `date` — tweet timestamp  
 
-### 💰 2. Bitcoin Price Dataset
+###  2. Bitcoin Price Dataset
 - File: `BTC-USD.csv`
 - Historical Bitcoin prices with columns:
   - `Date`, `Open`, `High`, `Low`, `Close`, `Volume`
 
 ---
 
-## ⚙️ Workflow
+##  Workflow
 
-### 🧩 Step 1: Data Preprocessing
+###  Step 1: Data Preprocessing
 - Load and clean both datasets using **pandas**
 - Remove URLs, hashtags, mentions, emojis, and special characters
 - Merge tweets with Bitcoin price data by date
 - Handle missing values and normalize numeric features
 
-### 💬 Step 2: Sentiment Extraction
+###  Step 2: Sentiment Extraction
 #### 🔹 VADER Sentiment Analyzer
 - A **rule-based sentiment analyzer** optimized for social media.
 - Generates:
@@ -54,20 +54,20 @@ This project combines **Natural Language Processing (NLP)**, **Machine Learning*
 - **BERT (Bidirectional Encoder Representations from Transformers)** extracts **deep contextual representations** of tweets.
 - Converts each tweet into a numerical vector capturing semantic meaning.
 
-### 🧮 Step 3: Feature Engineering
+### Step 3: Feature Engineering
 - Combine **VADER scores**, **BERT embeddings**, and **Bitcoin price features**
 - Create a **target variable** indicating if Bitcoin’s price increased (1) or decreased (0) the next day
 - Split data into training and test sets
 
-### 🤖 Step 4: Model Training
+###  Step 4: Model Training
 
 | Model | Type | Description | Strength |
 |--------|------|--------------|-----------|
-| 🌲 **Random Forest** | Ensemble ML | Combines many decision trees for robust predictions | Handles complex data, prevents overfitting |
-| ⚙️ **Logistic Regression** | Classical ML | Simple and interpretable linear model | Fast baseline for comparison |
-| 🧠 **LSTM (Long Short-Term Memory)** | Deep Learning (RNN) | Learns time-based dependencies | Great for sequential data (tweets/time-series) |
+|  **Random Forest** | Ensemble ML | Combines many decision trees for robust predictions | Handles complex data, prevents overfitting |
+|  **Logistic Regression** | Classical ML | Simple and interpretable linear model | Fast baseline for comparison |
+|  **LSTM (Long Short-Term Memory)** | Deep Learning (RNN) | Learns time-based dependencies | Great for sequential data (tweets/time-series) |
 
-### 📈 Step 5: Evaluation & Visualization
+###  Step 5: Evaluation & Visualization
 - Evaluate models using:
   - **Accuracy**
   - **Precision**
@@ -80,7 +80,7 @@ This project combines **Natural Language Processing (NLP)**, **Machine Learning*
 
 ---
 
-## 🧰 Libraries Used
+##  Libraries Used
 
 | Library | Purpose |
 |----------|----------|
@@ -95,22 +95,21 @@ This project combines **Natural Language Processing (NLP)**, **Machine Learning*
 
 ---
 
-## 🚀 Results & Insights
+##  Results & Insights
 - Tweets with **positive sentiment** generally align with **Bitcoin price increases** 📈  
 - **BERT-based features** provided deeper context understanding  
 - **Model comparison summary:**
 
 | Model | Accuracy | Observation |
 |--------|-----------|--------------|
-| 🌲 Random Forest | ⭐ Highest | Balanced and stable results |
-| ⚙️ Logistic Regression | Good | Fast and interpretable baseline |
-| 🧠 LSTM | High (on time-sequence data) | Captures temporal sentiment patterns |
+|  Random Forest | ⭐ Highest | Balanced and stable results |
+|  Logistic Regression | Good | Fast and interpretable baseline |
+|  LSTM | High (on time-sequence data) | Captures temporal sentiment patterns |
 
 ---
 
-## 🧩 How to Run the Project
+##  How to Run the Project
 
-### 🛠️ Step 1: Clone the Repository
 ```bash
 
 git clone https://github.com/<your-username>/Bitcoin-Sentiment-Analysis.git
