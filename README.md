@@ -160,6 +160,9 @@ This step creates a simple web app using Gradio and VADER Sentiment Analysis to 
 
 This mini-app lets you enter a Bitcoin tweet or headline (like “Bitcoin is skyrocketing!! This is amazing!!”) and instantly get a sentiment label — Positive, Negative, or Neutral — along with its numeric VADER compound score. 
 (⚠️ NOTE: Please open the link generated in the cell to run the GUI better, DONOT run it in the code cell.)
+gardio was run first but due to github not accepting it, a screenshot is being put in the lab report, the code cell has a simpler version of GUI
+
+
 
 🔮 Future Work
 
